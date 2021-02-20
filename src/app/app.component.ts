@@ -11,6 +11,7 @@ export class AppComponent  {
   contactForm: FormGroup;
   constructor(private formBuilder: FormBuilder) {
     this.createContactForm();
+    
   }
 
   createContactForm(){
