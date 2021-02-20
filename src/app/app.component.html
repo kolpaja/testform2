@@ -1,0 +1,14 @@
+<h1> Reactive Contact Form Example </h1>
+
+<form [formGroup]="contactForm" (ngSubmit)="onSubmit()">
+  <input type = "text" name = "fullName" placeholder = "Your full name" formControlName="fullName" >
+  <br/>
+  
+  <input type = "email" name = "email" placeholder = "Your email" formControlName="email" >
+  <br/>
+  
+  <textarea name = "message" placeholder = "Your message" formControlName="message" ></textarea>
+  <br/>
+  <input type = "submit" value = "Send">
+</form>
+
