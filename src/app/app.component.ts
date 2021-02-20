@@ -7,7 +7,7 @@ import { FormGroup, FormBuilder } from  '@angular/forms';
   styleUrls: [ './app.component.css' ]
 })
 export class AppComponent  {
-  
+  /*error initializzer*/
   contactForm: FormGroup;
   constructor(private formBuilder: FormBuilder) {
     this.createContactForm();
